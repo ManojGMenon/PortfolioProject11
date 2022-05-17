@@ -22,8 +22,10 @@ PREPARE - Data collection and organization. Data was downloaded from Coursera. R
 PROCESS - Data wrangling involved dropping un-necessary columns, summarizing columns, identifying NaN (missing) values and replacing with 'mean' values.<br>
 Exploratory Data Analysis included visualizing data with sns.boxplot() and sns.regplot() as well as investigating correlation factors for each feature.
 
-ANALYZE - Created linear and non linear models. Evaluated each visually using Regression plots, Residual plots, Distribution plots and numerically using R-Squared (R^2) and Mean Squared Error (MSE) analysis. (see Jupyter Notebook script : ModelDevelopment.ipynb)
+ANALYZE - Created linear models with single feature and multiple features and compared R^2 values. Created a prediction model using Pipeline, utilizing multiple features with Normalization+Polynomial transformation+Linear regression and calculated its R^2 value. <br>
+Split the data - created a training set and test set (15%) for further Ridge Regression analysis.<br>
+Created Ridge regression models with 2nd degree Polynomial transformation on the training and test sets and calculate R^2 values
 
 SHARE - Summarized findings, conclusions and recommendations in the same Jupyter Notebook
 
-Note: I recreated the Jupyter notebook step by step in order to understand each step of the process (was not just a cut & paste exercise)
+Note: The Jupyter notebook template was provided while I ha to write the code to the questions in the template.
