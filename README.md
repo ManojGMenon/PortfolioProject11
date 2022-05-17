@@ -15,11 +15,12 @@ Tools used : Python, Jupyter Notebook and Watson Studio
 
 ANALYSIS STEPS:
 
-ASK - Problem description and SOW (see document : Scope of Work)
+ASK - Problem description (provided in exercise)
 
-PREPARE - Data collection and organization. Data was downloaded from Coursera. Reading in the csv files into the Python (VS Code IDE) environment.
+PREPARE - Data collection and organization. Data was downloaded from Coursera. Reading in the csv files into the Python (Jupyter Notebook) environment that was created in Watson Studio.
 
-PROCESS - No cleaning was required for this dataset as it was prepared for this exercise by Coursera. Cleaning was not in the scope of this exercise.
+PROCESS - Data wrangling involved dropping un-necessary columns, summarizing columns, identifying NaN (missing) values and replacing with 'mean' values.<br>
+Exploratory Data Analysis included visualizing data with sns.boxplot() and sns.regplot() as well as investigating correlation factors for each feature.
 
 ANALYZE - Created linear and non linear models. Evaluated each visually using Regression plots, Residual plots, Distribution plots and numerically using R-Squared (R^2) and Mean Squared Error (MSE) analysis. (see Jupyter Notebook script : ModelDevelopment.ipynb)
 
